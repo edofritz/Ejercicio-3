@@ -1,0 +1,9 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+  <h2>Vehículo</h2>
+  <h3>{{vehiculo.getNombre}}</h3>	
+
+  <p>Marca : {{vehiculo.getMarca}}<p>
+  <p>Precio: ${{vehiculo.getValor}}<p>
+   
+{% endblock body %}

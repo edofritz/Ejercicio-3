@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: /Users/edufritz/evaluacion-dev-aq/ejercicio-3/app/config/routing_dev.yml

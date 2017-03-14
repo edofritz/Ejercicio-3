@@ -1,0 +1,8 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+  <h2>Vehículos disponibles</h2>
+   {% for auto in autos %}
+   	<li><a href="/autos/{{auto.Id}}">{{auto.Modelo}}</a></li>
+   {% endfor %}
+  </ul>
+{% endblock body %}

@@ -1,0 +1,9 @@
+parameters:
+    database_driver: pdo_sqlite
+    database_user: usr
+    database_path: "%kernel.root_dir%/%kernel.environment%.db"
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: ThisTokenIsNotSoSecretChangeIt

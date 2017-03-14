@@ -1,0 +1,7 @@
+aq_compra_venta_homepage:
+    path:     /autos/
+    defaults: { _controller: AQCompraVentaBundle:Default:index }
+
+aq_compra_venta_show:
+    path:     /autos/{id}
+    defaults: { _controller: AQCompraVentaBundle:Default:show }

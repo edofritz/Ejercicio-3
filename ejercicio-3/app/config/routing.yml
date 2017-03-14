@@ -1,0 +1,7 @@
+aq_compra_venta:
+    resource: "@AQCompraVentaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
